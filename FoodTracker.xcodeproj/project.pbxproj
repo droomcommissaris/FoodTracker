@@ -13,6 +13,7 @@
 		C58CEDCF1B5B03FD001884AE /* FoodTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C58CEDCD1B5B03FD001884AE /* FoodTracker.xcdatamodeld */; };
 		C58CEDD11B5B03FD001884AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58CEDD01B5B03FD001884AE /* Assets.xcassets */; };
 		C58CEDD41B5B03FD001884AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58CEDD21B5B03FD001884AE /* LaunchScreen.storyboard */; };
+		C58CEDDC1B5B04D0001884AE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CEDDB1B5B04D0001884AE /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C58CEDD01B5B03FD001884AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C58CEDD31B5B03FD001884AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C58CEDD51B5B03FD001884AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58CEDDB1B5B04D0001884AE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				C58CEDC61B5B03FD001884AE /* AppDelegate.swift */,
 				C58CEDC81B5B03FD001884AE /* ViewController.swift */,
+				C58CEDDB1B5B04D0001884AE /* DetailViewController.swift */,
 				C58CEDCA1B5B03FD001884AE /* Main.storyboard */,
 				C58CEDD01B5B03FD001884AE /* Assets.xcassets */,
 				C58CEDD21B5B03FD001884AE /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				C58CEDC91B5B03FD001884AE /* ViewController.swift in Sources */,
 				C58CEDC71B5B03FD001884AE /* AppDelegate.swift in Sources */,
 				C58CEDCF1B5B03FD001884AE /* FoodTracker.xcdatamodeld in Sources */,
+				C58CEDDC1B5B04D0001884AE /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +257,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.droomcommissaris.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -264,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.droomcommissaris.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +295,7 @@
 				C58CEDDA1B5B03FD001884AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
